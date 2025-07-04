@@ -1,0 +1,5 @@
+config SHIELD_OKINANAMI_LEFT
+    def_bool $(shields_list_contains, okinanami_left)
+
+config SHIELD_OKINANAMI_RIGHT
+    def_bool $(shields_list_contains, okinanami_right)
