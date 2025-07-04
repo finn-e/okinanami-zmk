@@ -3,3 +3,7 @@ config SHIELD_OKINANAMI_LEFT
 
 config SHIELD_OKINANAMI_RIGHT
     def_bool $(shields_list_contains, okinanami_right)
+
+CONFIG_ZMK_RGB_UNDERGLOW=y
+# Use the STRIP config specific to the LEDs you're using
+CONFIG_WS2812_STRIP=y
