@@ -1,4 +1,4 @@
-#include "okinanami.dtsi"S
+#include "okinanami.dtsi"
 &kscan0 {
     col-gpios
       = <&pro_micro 2 GPIO_ACTIVE_HIGH>
